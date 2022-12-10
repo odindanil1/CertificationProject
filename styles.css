@@ -1,0 +1,73 @@
+body{
+  background-image: linear-gradient(110deg, 
+  rgba(0,67,168,0.3), 
+  rgba(0,67,200,0.8) ), 
+  url(http://wallpapers-image.ru/1920x1080/comical/wallpapers/comical-wallpapers-1920x1080-0003.jpg);
+  font-family: Tahoma;
+  font-size: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    
+}
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+h1 , p , label {
+  color: white;
+}
+h1,p{
+  text-align: center;
+}
+h1{
+  padding-top:2rem;
+}
+.established {
+  font-style: italic;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-image: linear-gradient(140deg, 
+  rgba(0, 0, 67, 0.9), 
+  rgba(0,0,53,0.6) );
+  border: 3px solid #7922CC;
+  border-radius: 25px;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+input, textarea, select{
+  height: 2rem;
+  width:100%;
+  margin:0;
+  margin-top: 10px;
+}
+ .inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+fieldset{
+  width: 80%;
+  margin: auto;
+}
+.radio{
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+.textleft{
+  text-align:left;
+}
+.check{
+  width: unset;
+}

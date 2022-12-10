@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description" class="established">Thank you for taking the time to help us improve the platform</p>
+      <form id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label">Name 
+            <input required type="text" id="name" placeholder="Enter your name"/>
+          </label>
+          <label for="email" id="email-label">Email 
+            <input required type="email" id="email" placeholder="Enter your email" />
+          </label>
+          <label for="age" id="number-label">Age(optional)
+            <input type="number" min="10" max="100" id="number" placeholder="Enter your age" />
+          </label>
+          <label>Which option best describes your current role?
+            <select id="dropdown">
+              <option value=" ">Select current role</option>
+              <option value="1">Student</option>
+              <option value="2">Full Time Job</option>
+              <option value="3">Full Time Learner</option>
+              <option value="4">Prefer not to say</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Would you recommend freeCodeCamp to a friend?
+          <label><input class="inline radio" type="radio" name="recommend" value="Definitely" />Defenitely</label>
+          <label><input class="inline radio" type="radio" name="recommend" value="Maybe"/>Maybe</label>
+          <label><input class="inline radio" type="radio" name="recommend" value="Not Sure"/>Not Sure</label>
+          </label>
+        </fieldset>
+        <fieldset>
+        <p class="textleft">
+          What you like in this site? (Check all that apply)
+</p>
+<label><input class="inline radio" type="checkbox" name="recommend" value="Definitely" />Defenitely</label>
+          <label><input class="inline radio" type="checkbox" name="recommend" value="Maybe"/>Maybe</label>
+          <label><input class="inline radio" type="checkbox" name="recommend" value="Not Sure"/>Not Sure</label>
+          </fieldset>
+        <fieldset>
+<label for="better">Write how I can will be better?
+  <textarea id="better" name = "Better" rows="5" cols="5">
+  </textarea>
+</label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </body>
